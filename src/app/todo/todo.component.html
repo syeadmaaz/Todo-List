@@ -1,0 +1,39 @@
+<div class="todo">
+    <h1>Todo List</h1>
+    <div class="list">
+
+        <div class="list_items">
+            <div class="item">
+                <input type="checkbox" value="Studying" /> <span>Studying</span>
+            </div>
+            <div class="item">
+                <input type="checkbox" value="Eating" /> <span>Eating</span>
+            </div>
+            <div class="item">
+                <input type="checkbox" value="Programming" /> <span>Programming</span>
+            </div>
+            <div class="item">
+                <input type="checkbox" value="Playing" /> <span>Playing</span>
+            </div>
+            <div class="item">
+                <input type="checkbox" value="Gyming" /> <span>Gyming</span>
+            </div>
+        </div>
+
+    </div>
+    <button class="btn" (click)="display()">Submit</button>
+    <button class="btn" (click)="reset()">Reset</button>
+
+    <div>
+        <div *ngIf="filtered_item.length !=0; then thenBlock; else elseBlock"></div>
+        <ng-template #thenBlock>
+            <h2 style="color:yellow">Selected Items</h2>
+            <div class="selected_box" >
+                <p class="selected_item" *ngFor="let item of filtered_item; let i=index">{{ item.value }}</p>
+            </div>
+        </ng-template>
+        <ng-template #elseBlock></ng-template>
+    </div>
+</div>
+
+
