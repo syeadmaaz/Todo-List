@@ -1,6 +1,7 @@
 # Todo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
+## Project Overview
+This Todo-List project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
 ## Development server
 
@@ -25,3 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Copyright Owner
+------------------------------
+### Syead Maaz Ahmed 
+  * Computer Science Engineer (5th Sem)
+  * Minor Specialization : Cyber security
+  * Graduating Year : 2023
+
